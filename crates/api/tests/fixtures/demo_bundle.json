@@ -1,0 +1,608 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "resource": {
+    "resourceType": "Patient",
+    "id": "ada",
+    "gender": "female",
+    "birthDate": "1975-12-10",
+    "name": [
+     {
+      "given": [
+       "Ada"
+      ],
+      "family": "Lovelace"
+     }
+    ]
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Patient",
+    "id": "grace",
+    "gender": "female",
+    "birthDate": "1980-09-09",
+    "name": [
+     {
+      "given": [
+       "Grace"
+      ],
+      "family": "Hopper"
+     }
+    ]
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Cholesterol"
+      }
+     ],
+     "text": "Cholesterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2025-01-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 159.2323591346572,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8867-4",
+       "display": "Heart rate"
+      }
+     ],
+     "text": "Heart rate"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2025-01-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 69.02286302503303,
+     "unit": "bpm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Cholesterol"
+      }
+     ],
+     "text": "Cholesterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2025-04-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 165.32171150565068,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8867-4",
+       "display": "Heart rate"
+      }
+     ],
+     "text": "Heart rate"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2025-04-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 67.36986315533763,
+     "unit": "bpm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Cholesterol"
+      }
+     ],
+     "text": "Cholesterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2025-07-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 169.2099454290317,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8867-4",
+       "display": "Heart rate"
+      }
+     ],
+     "text": "Heart rate"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2025-07-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 67.5733961051576,
+     "unit": "bpm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Cholesterol"
+      }
+     ],
+     "text": "Cholesterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2025-10-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 181.33575214295897,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8867-4",
+       "display": "Heart rate"
+      }
+     ],
+     "text": "Heart rate"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2025-10-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 68.84829336825187,
+     "unit": "bpm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Cholesterol"
+      }
+     ],
+     "text": "Cholesterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-01-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 187.110637236669,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8867-4",
+       "display": "Heart rate"
+      }
+     ],
+     "text": "Heart rate"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-01-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 68.49780545533018,
+     "unit": "bpm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Cholesterol"
+      }
+     ],
+     "text": "Cholesterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-04-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 191.18430890384127,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8867-4",
+       "display": "Heart rate"
+      }
+     ],
+     "text": "Heart rate"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-04-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 68.3706533208568,
+     "unit": "bpm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Cholesterol"
+      }
+     ],
+     "text": "Cholesterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-07-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 191.00181242406418,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8867-4",
+       "display": "Heart rate"
+      }
+     ],
+     "text": "Heart rate"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-07-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 69.71050193752947,
+     "unit": "bpm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2160-0",
+       "display": "Cholesterol"
+      }
+     ],
+     "text": "Cholesterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-10-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 203.51915453768416,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8867-4",
+       "display": "Heart rate"
+      }
+     ],
+     "text": "Heart rate"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-10-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 68.99763607632389,
+     "unit": "bpm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4548-4",
+       "display": "Hemoglobin A1c"
+      }
+     ],
+     "text": "Hemoglobin A1c"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-01-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 5.8,
+     "unit": "%"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4548-4",
+       "display": "Hemoglobin A1c"
+      }
+     ],
+     "text": "Hemoglobin A1c"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2026-07-05T00:00:00Z",
+    "valueQuantity": {
+     "value": 6.4,
+     "unit": "%"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Condition",
+    "clinicalStatus": {
+     "text": "active"
+    },
+    "code": {
+     "coding": [
+      {
+       "system": "http://snomed.info/sct",
+       "code": "195967001",
+       "display": "Asthma"
+      }
+     ],
+     "text": "Asthma"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "onsetDateTime": "2023-03-01T00:00:00Z"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "MedicationStatement",
+    "status": "active",
+    "medicationCodeableConcept": {
+     "coding": [
+      {
+       "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+       "code": "310798",
+       "display": "Albuterol"
+      }
+     ],
+     "text": "Albuterol"
+    },
+    "subject": {
+     "reference": "Patient/ada"
+    },
+    "effectiveDateTime": "2023-03-01T00:00:00Z"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin"
+      }
+     ],
+     "text": "Hemoglobin"
+    },
+    "subject": {
+     "reference": "Patient/grace"
+    },
+    "effectiveDateTime": "2026-01-10T00:00:00Z",
+    "valueQuantity": {
+     "value": 12.654317724075788,
+     "unit": "g/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin"
+      }
+     ],
+     "text": "Hemoglobin"
+    },
+    "subject": {
+     "reference": "Patient/grace"
+    },
+    "effectiveDateTime": "2026-02-10T00:00:00Z",
+    "valueQuantity": {
+     "value": 12.628055941362199,
+     "unit": "g/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin"
+      }
+     ],
+     "text": "Hemoglobin"
+    },
+    "subject": {
+     "reference": "Patient/grace"
+    },
+    "effectiveDateTime": "2026-03-10T00:00:00Z",
+    "valueQuantity": {
+     "value": 13.055192327596535,
+     "unit": "g/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "718-7",
+       "display": "Hemoglobin"
+      }
+     ],
+     "text": "Hemoglobin"
+    },
+    "subject": {
+     "reference": "Patient/grace"
+    },
+    "effectiveDateTime": "2026-04-10T00:00:00Z",
+    "valueQuantity": {
+     "value": 13.265905362133383,
+     "unit": "g/dL"
+    }
+   }
+  }
+ ]
+}

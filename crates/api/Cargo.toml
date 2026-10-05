@@ -1,0 +1,21 @@
+[package]
+name = "fhir-api"
+description = "FHIR R4 Data Explorer API (axum) — ingest, browse, longitudinal timelines"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+fhir-models = { path = "../fhir-models" }
+axum.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tower-http.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
+tower.workspace = true
